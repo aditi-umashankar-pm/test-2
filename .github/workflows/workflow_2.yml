@@ -33,4 +33,3 @@ jobs:
       - name: Run a multi-line script
         run: |
           sleep 30
-          key="PMAK-64072a92e3bf88002a979c84-0f6c0523461903dd53ed19c4df92f3ba41"
