@@ -796,7 +796,7 @@
 							"                    failAndLog(msg, extraData, pm.response.text());",
 							"                }",
 							"                else {",
-							"                    pm.integration.success(`The moitor results were posted to the Slack channel ${globals.channel ? globals.channel : ''}`);",
+							"                    pm.integration.success(`The monitor results were posted to the Slack channel ${globals.channel ? globals.channel : ''}`);",
 							"                    postman.setEnvironmentVariable(\"status\", \"success\");",
 							"                }",
 							"            }",
