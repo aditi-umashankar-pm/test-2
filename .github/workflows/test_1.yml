@@ -24,7 +24,7 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
         with:
-            ref: ${GITHUB_REF_NAME}
+            ref: beta
 
       # Runs a single command using the runners shell
       - name: Run a one-line script

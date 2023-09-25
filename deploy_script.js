@@ -1,1 +1,1 @@
-console.log('script time');
+console.log('script time - beta');
