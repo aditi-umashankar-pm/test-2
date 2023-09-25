@@ -28,9 +28,8 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: echo ${{github.event.commits.modified}}
-      - name: Run a one-line script
-        run: echo ${github.event.commits.modified}
+        run: echo ${{github.event.commits[0].modified}}
+
       - name: Run a one-line script
         run: echo ${GITHUB_REF_NAME}
 
