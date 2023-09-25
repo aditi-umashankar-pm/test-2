@@ -31,7 +31,9 @@ jobs:
         run: echo ${{github.event.commits[0].modified}} ${{github.event.commits[0].message}}
 
       - name: Run a one-line script
-        run: echo ${GITHUB_REF_NAME}
+        run: | 
+          echo ${GITHUB_REF_NAME}
+          echo ${{github.event.head_commit.modified}} ${{ github.event.push.after }} ${{ github.event.push }}
 
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
