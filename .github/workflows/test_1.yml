@@ -28,7 +28,7 @@ jobs:
         run: |
           collectionPath=$(echo $(git diff-tree --no-commit-id --name-only -r $GITHUB_REF))
           fileName=$(echo "$collectionPath" | sed -r "s/.+\/(.+)\..+/\1/")
-          apiKeyVarName="\${{ secrets.$GITHUB_REF_NAME"
+          apiKeyVarName="\${{ secrets.${GITHUB_REF_NAME}"
           apiKeyVarName+="_API_KEY }}"
           echo "integrationClassId=$fileName" >> $GITHUB_ENV
           echo "env=$GITHUB_REF_NAME" >> $GITHUB_ENV
