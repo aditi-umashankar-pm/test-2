@@ -1421,7 +1421,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"type": "text/jaascript",
+				"type": "text/javascript",
 				"exec": [
 					""
 				]
