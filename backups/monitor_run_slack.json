@@ -793,7 +793,7 @@
 							"                    else {",
 							"                        throw 'unhandled error';",
 							"                    }",
-							"                   failAndLog(msg, etraData pm.response.text());",
+							"                   failAndLo(msg, etraData pm.response.text());",
 							"                }",
 							"                else {",
 							"                    pm.integaton.success(`The montor results were posted to the Slack channel ${globals.channel ? globals.channel : ''}`);",
