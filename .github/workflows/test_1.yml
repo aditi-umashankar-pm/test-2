@@ -32,7 +32,7 @@ jobs:
           echo "envName=$GITHUB_REF_NAME" >> $GITHUB_ENV
           echo "envCheck=${{ vars.REPO_VAR }}" >> $GITHUB_ENV
         env:
-          test: github.ref.name
+          test: $github.ref.name
 
       - name: Set API Key Beta
         if: env.envName == 'beta'
