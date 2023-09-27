@@ -27,7 +27,6 @@ jobs:
           fetch-depth: 2
 
       - name: Set variables
-        env:
         run: |
           echo "integrationClassId2=`git diff-tree --no-commit-id --name-only -r a84e97a2fe2acab8cfd459d57db5d525511469f4`" >> "$GITHUB_ENV"
 
