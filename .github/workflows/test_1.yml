@@ -21,28 +21,20 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      # Fetch-depth 2 ensures we can access latest commit
       - uses: actions/checkout@v3
         with:
-          parse-checkout: |
-            index.js
           fetch-depth: 2
 
-      # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: echo ${{github.event.commits[0].modified}} ${{github.event.commits[0].message}}
-
-      - name: Run a one-line script
-        run: | 
-          echo ${GITHUB_REF_NAME}
-          echo ${GITHUB_SHA}
+      - name: Set variables
+        env:
+          integrationClassId: echo `git diff-tree --no-commit-id --name-only -r a84e97a2fe2acab8cfd459d57db5d525511469f4`
+        run: |
+          echo `integrationClassId2=$(git diff-tree --no-commit-id --name-only -r a84e97a2fe2acab8cfd459d57db5d525511469f4)` >> $GITHUB_ENV 
 
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
         run: |
-          node index.js argA 'argB'
-          git branch
-
-      # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
-        run: git diff-tree --no-commit-id --name-only -r ${{ github.sha }}
+          echo "${{ env.integrationClassId2 }}"
+          echo "${{ env.integrationClassId }}"
+        
