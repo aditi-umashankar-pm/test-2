@@ -18,7 +18,7 @@ jobs:
   build:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
-    environment: $GITHUB_REF
+    environment: $GITHUB_REF_NAME
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
@@ -32,7 +32,7 @@ jobs:
           collectionPath=$(echo $(git diff-tree --no-commit-id --name-only -r $GITHUB_REF))
           fileName=$(echo "$collectionPath" | sed -r "s/.+\/(.+)\..+/\1/")
           echo "integrationClassId=$fileName" >> $GITHUB_ENV
-          echo "env=$GITHUB_REF" >> $GITHUB_ENV
+          echo "env=$GITHUB_REF_NAME" >> $GITHUB_ENV
           echo "apiKey=${{ vars.APIKEY }}" >> $GITHUB_ENV
           echo "envCheck=${{ vars.ENV_CHECK }}" >> $GITHUB_ENV
 
