@@ -24,7 +24,9 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
         with:
-            fetch-depth: 1
+          parse-checkout: |
+            index.js
+          fetch-depth: 2
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
@@ -38,7 +40,7 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
         run: |
-          node deploy_script.js
+          node index.js argA 'argB'
           git branch
 
       # Runs a set of commands using the runners shell
