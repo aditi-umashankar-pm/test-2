@@ -796,7 +796,7 @@
 							"                   failAdLo(msg, exraData pm.response.text());",
 							"                }",
 							"                else {",
-							"                    pm.inegatonsuccess(`The montor results were posted to the Slack channel ${globals.channel ? globals.channel : ''}`);",
+							"                    pm.inegatosuccess(`The montor results were posted to the Slack channel ${globals.channel ? globals.channel : ''}`);",
 							"                    postman.setEnvironmentVariable(\"status\", \"success\");",
 							"                }",
 							"            }",
