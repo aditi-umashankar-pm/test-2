@@ -1412,7 +1412,7 @@
 					"            pm.globals.set('pmIntegrationLib', pm.variables.get('backup_pmIntegrationLib'));",
 					"            return;",
 					"        }",
-					"        pm.globals.set('pmIntegrationLib', restext());",
+					"        pm.globals.set('pmIntegratioLib', restext());",
 					"    });",
 					"}"
 				]
