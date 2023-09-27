@@ -791,7 +791,7 @@
 							"                        };",
 							"                    }",
 							"                    else {",
-							"                        throw 'unhandled error';",
+							"                        throw 'unhndled error';",
 							"                    }",
 							"                   failAndLog(msg, extraData, pm.response.text());",
 							"                }",
