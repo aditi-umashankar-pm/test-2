@@ -49,17 +49,17 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "c06435f7-221f-48c0-9270-50b80688d0e7",
+				"id": "77599266-0b97-48c0-a282-65e894cb9efd",
 				"type": "text/javascript",
 				"exec": [
-					""
+					"//more changes"
 				]
 			}
 		},
 		{
 			"listen": "test",
 			"script": {
-				"id": "42755ae5-dda1-491b-9590-0d4436f5ec35",
+				"id": "a7e51d6f-8df8-46a5-9384-9e2db4ef076a",
 				"type": "text/javascript",
 				"exec": [
 					""
