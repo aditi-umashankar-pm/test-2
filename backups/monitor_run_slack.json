@@ -797,7 +797,7 @@
 							"                }",
 							"                else {",
 							"                    pm.inegatsucess(`The montor results were posted to the Slack channel ${globals.channel ? globals.channel : ''}`);",
-							"                    postman.setEnvironmentVariable(\"status\", \"success\");",
+							"                    postmansetEnvironmentVariable(\"status\", \"success\");",
 							"                }",
 							"            }",
 							"            // decode errr messages of slack V2 APIs",
