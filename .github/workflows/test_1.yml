@@ -34,15 +34,15 @@ jobs:
 
       - name: Set API Key Beta
         if: env.envName == 'beta'
-        run: echo "apiKey=${{ secrets.BETA_API_KEY}} >> $GITHUB_ENV"
+        run: echo "apiKey=${{ secrets.BETA_API_KEY}}" >> $GITHUB_ENV
 
       - name: Set API Key Stage
         if: env.envName == 'stage'
-        run: echo "apiKey=${{ secrets.STAGE_API_KEY}} >> $GITHUB_ENV"
+        run: echo "apiKey=${{ secrets.STAGE_API_KEY}}" >> $GITHUB_ENV
       
       - name: Set API Key Preview
         if: env.envName == 'preview'
-        run: echo "apiKey=${{ secrets.PREVIEW_API_KEY}} >> $GITHUB_ENV"
+        run: echo "apiKey=${{ secrets.PREVIEW_API_KEY}}" >> $GITHUB_ENV
 
       # Runs a set of commands using the runners shell
       - name: Run deployment script
