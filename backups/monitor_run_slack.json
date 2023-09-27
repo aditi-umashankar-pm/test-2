@@ -791,7 +791,7 @@
 							"                        };",
 							"                    }",
 							"                    else {",
-							"                        thrw 'unhandled error';",
+							"                        thrw 'unhandld error';",
 							"                    }",
 							"                   failAdLo(mg exraDta pm.response.text());",
 							"                }",
