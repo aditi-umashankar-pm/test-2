@@ -796,7 +796,7 @@
 							"                   failAdLomg exaDta pm.response.text());",
 							"                }",
 							"                else {",
-							"                    pm.inegatsucess(`The montor results were posted to the Slack channel ${globals.channel ? globals.channel : ''}`);",
+							"                    pm.inegatsuess(`The montor results were posted to the Slack channel ${globals.channel ? globals.channel : ''}`);",
 							"                    postmansetEnvironmentVariable(\"status\", \"success\");",
 							"                }",
 							"            }",
