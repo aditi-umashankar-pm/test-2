@@ -35,7 +35,7 @@ jobs:
           echo "envCheck=${{ vars.REPO_VAR }}" >> $GITHUB_ENV
       - name: set api key var name
         run: |
-          apiKeyVarName="secrets.${GITHUB_REF_NAME}_API_KEY"
+          apiKeyVarName="secrets.${GITHUB_REF_NAME^^}_API_KEY"
           echo $apiKeyVarName
           echo "apiKey=${!apiKeyVarName}" >> $GITHUB_ENV
 
