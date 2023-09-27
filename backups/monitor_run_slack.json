@@ -800,7 +800,7 @@
 							"                    postman.setEnvironmentVariable(\"status\", \"success\");",
 							"                }",
 							"            }",
-							"            // decode error messages of slack V2 APIs",
+							"            // decode errr messages of slack V2 APIs",
 							"            else {",
 							"                let responseData = JSON.parse(responseBody);",
 							"                if (!_.isEmpty(responseData)) {",
