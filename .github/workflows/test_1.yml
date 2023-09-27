@@ -28,12 +28,11 @@ jobs:
         run: |
           collectionPath=$(echo $(git diff-tree --no-commit-id --name-only -r $GITHUB_REF))
           fileName=$(echo "$collectionPath" | sed -r "s/.+\/(.+)\..+/\1/")
-          apiKeyVarName="\${{ secrets.${GITHUB_REF_NAME^^}_API_KEY }}"
           echo "integrationClassId=$fileName" >> $GITHUB_ENV
           echo "env=$GITHUB_REF_NAME" >> $GITHUB_ENV
           echo "envCheck=${{ vars.REPO_VAR }}" >> $GITHUB_ENV
           echo ${!apiKeyVarName}
-          echo "apiKey=${{ secrets.BETA_API_KEY }}" >> $GITHUB_ENV
+          echo "apiKey=${{ secrets.beta_API_KEY }}" >> $GITHUB_ENV
 
       # Runs a set of commands using the runners shell
       - name: Run deployment script
