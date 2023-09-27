@@ -32,7 +32,7 @@ jobs:
           echo "env=$GITHUB_REF_NAME" >> $GITHUB_ENV
           echo "envCheck=${{ vars.REPO_VAR }}" >> $GITHUB_ENV
           echo ${!apiKeyVarName}
-          echo "apiKey=${{ secrets.beta_API_KEY }}" >> $GITHUB_ENV
+          echo "apiKey=${{ secrets.stage_API_KEY }}" >> $GITHUB_ENV
 
       # Runs a set of commands using the runners shell
       - name: Run deployment script
