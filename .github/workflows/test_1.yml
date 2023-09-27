@@ -33,9 +33,10 @@ jobs:
           fileName=$(echo "$collectionPath" | sed -r "s/.+\/(.+)\..+/\1/")
           echo "integrationClassId=$fileName" >> $GITHUB_ENV
           echo "env=$GITHUB_REF_NAME" >> $GITHUB_ENV
-          echo "apiKey=${{ vars.APIKEY }}" >> $GITHUB_ENV
+          echo "apiKey=${{ secrets.APIKEY }}" >> $GITHUB_ENV
           echo "envCheck=${{ vars.ENV_CHECK }}" >> $GITHUB_ENV
           echo $ENV_CHECK
+          echo ${{ vars.ENV_CHECK }}
 
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
