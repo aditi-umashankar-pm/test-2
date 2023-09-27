@@ -37,7 +37,7 @@ jobs:
         run: |
           apiKeyVarName="secrets.${GITHUB_REF_NAME^^}_API_KEY"
           echo $apiKeyVarName
-          echo "apiKey=${!apiKeyVarName}" >> $GITHUB_ENV
+          echo "apiKey=${{ !apiKeyVarName }}" >> $GITHUB_ENV
 
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
