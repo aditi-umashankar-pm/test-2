@@ -28,17 +28,24 @@ jobs:
         run: |
           collectionPath=$(echo $(git diff-tree --no-commit-id --name-only -r $GITHUB_REF))
           fileName=$(echo "$collectionPath" | sed -r "s/.+\/(.+)\..+/\1/")
-          apiKeyVarName="\${{ secrets."
-          apiKeyVarName+="${GITHUB_REF_NAME}"
-          apiKeyVarName+="_API_KEY }}"
           echo "integrationClassId=$fileName" >> $GITHUB_ENV
           echo "env=$GITHUB_REF_NAME" >> $GITHUB_ENV
           echo "envCheck=${{ vars.REPO_VAR }}" >> $GITHUB_ENV
-          echo ${!apiKeyVarName}
-          echo "apiKey=${{ secrets.stage_API_KEY }}" >> $GITHUB_ENV
+
+      - name: Set API Key Beta
+        if: $env == 'beta'
+        run: echo "apiKey=${{ secrets.BETA_API_KEY}}"
+
+      - name: Set API Key Stage
+        if: $env == 'stage'
+        run: echo "apiKey=${{ secrets.STAGE_API_KEY}}"
+      
+      - name: Set API Key Preview
+        if: $env == 'preview'
+        run: echo "apiKey=${{ secrets.PREVIEW_API_KEY}}"
 
       # Runs a set of commands using the runners shell
       - name: Run deployment script
         run: |
           npm i
-          node index.js -e $env -i $integrationClassId -k $( ${!apiKeyVarName} )
+          node index.js -e $env -i $integrationClassId -k $apiKey
