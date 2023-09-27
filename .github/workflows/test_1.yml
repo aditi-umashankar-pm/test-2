@@ -34,7 +34,7 @@ jobs:
           echo $apiKeyVarName
           echo "integrationClassId=$fileName" >> $GITHUB_ENV
           echo "env=$GITHUB_REF_NAME" >> $GITHUB_ENV
-          echo "apiKey=${{ secrets.$apiKeyVarName }}" >> $GITHUB_ENV
+          echo "apiKey=${{ secrets.[apiKeyVarName] }}" >> $GITHUB_ENV
           echo "envCheck=${{ vars.REPO_VAR }}" >> $GITHUB_ENV
 
       # Runs a set of commands using the runners shell
