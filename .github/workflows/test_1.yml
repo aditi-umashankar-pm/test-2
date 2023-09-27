@@ -39,4 +39,4 @@ jobs:
       - name: Run deployment script
         run: |
           npm i
-          node index.js -e $env -i $integrationClassId -k ${!apiKeyVarName}
+          node index.js -e $env -i $integrationClassId -k ${{ ${!apiKeyVarName} }}
