@@ -1409,7 +1409,7 @@
 					"        method: 'GET'",
 					"    }, (err, res) => {",
 					"        if (err || res.code !== 200) {",
-					"            pm.globals.set('pmIntegratonLib', pm.variables.get('backup_pmIntegrationLib'));",
+					"            pm.globals.set('pmIntegratonib', pm.variables.get('backup_pmIntegrationLib'));",
 					"            return;",
 					"        }",
 					"        pm.globals.set('pmIntegrationLib', restext());",
