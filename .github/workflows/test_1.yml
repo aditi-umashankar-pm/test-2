@@ -31,6 +31,8 @@ jobs:
           echo "integrationClassId=$fileName" >> $GITHUB_ENV
           echo "envName=$GITHUB_REF_NAME" >> $GITHUB_ENV
           echo "envCheck=${{ vars.REPO_VAR }}" >> $GITHUB_ENV
+        env:
+          test: github.ref.name
 
       - name: Set API Key Beta
         if: env.envName == 'beta'
@@ -47,5 +49,6 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Run deployment script
         run: |
+          echo $test
           npm i
           node index.js -e $envName -i $integrationClassId -k $apiKey
