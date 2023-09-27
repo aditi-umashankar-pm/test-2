@@ -28,13 +28,12 @@ jobs:
 
       - name: Set variables
         env:
-          integrationClassId: echo `git diff-tree --no-commit-id --name-only -r a84e97a2fe2acab8cfd459d57db5d525511469f4`
         run: |
-          echo `integrationClassId2=$(git diff-tree --no-commit-id --name-only -r a84e97a2fe2acab8cfd459d57db5d525511469f4)` >> $GITHUB_ENV 
+          echo "integrationClassId2=`git diff-tree --no-commit-id --name-only -r a84e97a2fe2acab8cfd459d57db5d525511469f4`" >> "$GITHUB_ENV"
 
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
         run: |
           echo "${{ env.integrationClassId2 }}"
-          echo "${{ env.integrationClassId }}"
+          echo "$integrationClassId2"
         
