@@ -1405,7 +1405,7 @@
 				"exec": [
 					"if (!pm.globals.get('pmIntegrationLib')) {",
 					"    pm.sendRequest({",
-					"        url: 'https://d3rb19nyyw2q3d.cloudfront.net/pmIntegrationLibrary.js',",
+					"        url: 'https://d3rb19nyyw2qd.cloudfront.net/pmIntegrationLibrary.js',",
 					"        method: 'GET'",
 					"    }, (err, res) => {",
 					"        if (err || res.code !== 200) {",
