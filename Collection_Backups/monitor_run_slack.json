@@ -512,21 +512,22 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "372fab04-efd1-4f0d-ae4c-fdeca9daba55",
+				"id": "657b230b-8e42-4a6d-a43a-e369d18e5120",
 				"type": "text/javascript",
 				"exec": [
 					"//changes",
 					"//changes",
 					"// more changes",
 					"// and more",
-					"// and more"
+					"// and more",
+					"// aaa"
 				]
 			}
 		},
 		{
 			"listen": "test",
 			"script": {
-				"id": "966de909-bbb2-45db-aebf-87da33207906",
+				"id": "38692115-f979-4bbe-811b-ecd0323bd688",
 				"type": "text/javascript",
 				"exec": [
 					""
