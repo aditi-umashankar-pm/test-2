@@ -3,3 +3,4 @@
       "staticip": true
     }
   }
+New line
