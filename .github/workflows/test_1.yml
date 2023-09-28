@@ -49,3 +49,16 @@ jobs:
         run: |
           npm i
           node index.js -e $envName -i $integrationClassId -k $apiKey
+
+
+      - name: Commit to file
+        run: | 
+          echo "New line" >> ./integrationConfig.js
+
+      - uses: EndBug/add-and-commit@v9
+        with:
+          message: "Update config"
+          add: "integrationConfig.js"
+
+
+        
