@@ -1,0 +1,536 @@
+{
+	"info": {
+		"_postman_id": "254d19bc-a35c-4099-812e-d6ee726f1a0e",
+		"name": "Test Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "audio-ak-spotify-com.akamaized.net",
+			"item": [
+				{
+					"name": "/audio/72d0b0314b4212f5654295cc9a27be6197b1ec72",
+					"id": "f75d5438-628f-4e77-9cff-5ad954878ebf",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "host",
+								"value": "audio-ak-spotify-com.akamaized.net"
+							},
+							{
+								"key": "connection",
+								"value": "keep-alive"
+							},
+							{
+								"key": "pragma",
+								"value": "no-cache"
+							},
+							{
+								"key": "cache-control",
+								"value": "no-cache, no-store"
+							},
+							{
+								"key": "accept-encoding",
+								"value": ""
+							},
+							{
+								"key": "range",
+								"value": "bytes=0-524287"
+							},
+							{
+								"key": "user-agent",
+								"value": "Spotify/119900878 OSX/0 (MacBookPro16,2)"
+							},
+							{
+								"key": "accept-language",
+								"value": "en"
+							},
+							{
+								"key": "sec-fetch-site",
+								"value": "same-origin"
+							},
+							{
+								"key": "sec-fetch-mode",
+								"value": "no-cors"
+							},
+							{
+								"key": "sec-fetch-dest",
+								"value": "empty"
+							},
+							{
+								"key": "x-postman-captr",
+								"value": "6219973"
+							}
+						],
+						"url": {
+							"raw": "https://audio-ak-spotify-com.akamaized.net/audio/72d0b0314b4212f5654295cc9a27be6197b1ec72?__token__=exp=1674636072~hmac=fb08340351c3f8683526719bbcf9000b97777f07828ae5e229bce3267ad9b491",
+							"protocol": "https",
+							"host": [
+								"audio-ak-spotify-com",
+								"akamaized",
+								"net"
+							],
+							"path": [
+								"audio",
+								"72d0b0314b4212f5654295cc9a27be6197b1ec72"
+							],
+							"query": [
+								{
+									"key": "__token__",
+									"value": "exp=1674636072~hmac=fb08340351c3f8683526719bbcf9000b97777f07828ae5e229bce3267ad9b491"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/audio/c6c1fb9f7dff3604a4422d5686eeacda49cc878a",
+					"id": "264780ba-931c-4ad4-aa7f-c5853fdd169b",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "host",
+								"value": "audio-ak-spotify-com.akamaized.net"
+							},
+							{
+								"key": "connection",
+								"value": "keep-alive"
+							},
+							{
+								"key": "pragma",
+								"value": "no-cache"
+							},
+							{
+								"key": "cache-control",
+								"value": "no-cache, no-store"
+							},
+							{
+								"key": "accept-encoding",
+								"value": ""
+							},
+							{
+								"key": "range",
+								"value": "bytes=0-524287"
+							},
+							{
+								"key": "user-agent",
+								"value": "Spotify/119900878 OSX/0 (MacBookPro16,2)"
+							},
+							{
+								"key": "accept-language",
+								"value": "en"
+							},
+							{
+								"key": "sec-fetch-site",
+								"value": "same-origin"
+							},
+							{
+								"key": "sec-fetch-mode",
+								"value": "no-cors"
+							},
+							{
+								"key": "sec-fetch-dest",
+								"value": "empty"
+							},
+							{
+								"key": "x-postman-captr",
+								"value": "990325"
+							}
+						],
+						"url": {
+							"raw": "https://audio-ak-spotify-com.akamaized.net/audio/c6c1fb9f7dff3604a4422d5686eeacda49cc878a?__token__=exp=1674636074~hmac=98cffad5ecffbc8fe3c173a7f271fd43197e5e1b5de7626db9f0ee6cbcc7e487",
+							"protocol": "https",
+							"host": [
+								"audio-ak-spotify-com",
+								"akamaized",
+								"net"
+							],
+							"path": [
+								"audio",
+								"c6c1fb9f7dff3604a4422d5686eeacda49cc878a"
+							],
+							"query": [
+								{
+									"key": "__token__",
+									"value": "exp=1674636074~hmac=98cffad5ecffbc8fe3c173a7f271fd43197e5e1b5de7626db9f0ee6cbcc7e487"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"id": "aec478ab-49a4-4738-b978-a00d12585e77",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "a13f9b54-00f9-4ad4-ae97-3fe92da6577b",
+						"type": "text/javascript",
+						"exec": [
+							"dfkjhk,wkdshfkewhfkj",
+							"ksdfjlefewkhdfg",
+							"lkjsdfkhwe;kjbljsefk",
+							"jkfkjsd",
+							"ewfj;ehurfhpreiwuhfweiruh"
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "bdbb162c-d844-4786-a156-faa704649095",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "bifrost-https-v4-global.gw.postman-beta.com",
+			"item": [
+				{
+					"name": "/ws/proxy",
+					"id": "3fbd35e3-dccb-45ef-9f5d-9c7c32036b5a",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "host",
+								"value": "bifrost-https-v4-global.gw.postman-beta.com"
+							},
+							{
+								"key": "connection",
+								"value": "keep-alive"
+							},
+							{
+								"key": "content-length",
+								"value": "248"
+							},
+							{
+								"key": "x-app-version",
+								"value": "10.8.4-beta"
+							},
+							{
+								"key": "content-type",
+								"value": "application/json"
+							},
+							{
+								"key": "x-access-token",
+								"value": "6cf73c3601b8c5b62e5a50253f5975f5e67d7f3ce51936bfbd4339e5777e66ca9080730d64e198258daba93023595bec9dd50236c09f69a53de840dc5422c67e"
+							},
+							{
+								"key": "user-agent",
+								"value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) PostmanDev/10.8.0 Chrome/100.0.4896.160 Electron/18.3.5 Safari/537.36"
+							},
+							{
+								"key": "x-entity-team-id",
+								"value": "1"
+							},
+							{
+								"key": "accept",
+								"value": "*/*"
+							},
+							{
+								"key": "sec-fetch-site",
+								"value": "cross-site"
+							},
+							{
+								"key": "sec-fetch-mode",
+								"value": "cors"
+							},
+							{
+								"key": "sec-fetch-dest",
+								"value": "empty"
+							},
+							{
+								"key": "referer",
+								"value": "https://matrix.postman-beta.co:8777/"
+							},
+							{
+								"key": "accept-encoding",
+								"value": "gzip, deflate, br"
+							},
+							{
+								"key": "accept-language",
+								"value": "en-GB"
+							},
+							{
+								"key": "cookie",
+								"value": "_cfuvid=VrmFvaS7g5TVrKrKFfaPUtm8F1IgNTuAifsQncebyv4-1674548867847-0-604800000"
+							},
+							{
+								"key": "x-postman-captr",
+								"value": "857284"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"service\":\"presence\",\"method\":\"post\",\"path\":\"/v2/report\",\"body\":{\"device\":{\"id\":\"4e58f0a6-82fa-4c7d-a5de-33b0256417c0\",\"type\":\"app\",\"state\":{\"focus\":false}},\"models\":{\"workspace\":\"64f3c52a-3e6a-4605-89d3-280243c6ffd9\"},\"primaryModel\":\"workspace\"}}"
+						},
+						"url": "https://bifrost-https-v4-global.gw.postman-beta.com/ws/proxy"
+					},
+					"response": []
+				}
+			],
+			"id": "0c3be2c8-4907-4344-9fe7-8baa0e06fb4a"
+		},
+		{
+			"name": "events.launchdarkly.com",
+			"item": [
+				{
+					"name": "/events/bulk/6028132d28a3970b6450f684",
+					"id": "58254993-b8ab-49da-a8f5-6511ac75204a",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "host",
+								"value": "events.launchdarkly.com"
+							},
+							{
+								"key": "connection",
+								"value": "keep-alive"
+							},
+							{
+								"key": "content-length",
+								"value": "300"
+							},
+							{
+								"key": "x-launchdarkly-payload-id",
+								"value": "e1bc05f0-9bc2-11ed-92b9-4d97657d7450"
+							},
+							{
+								"key": "x-launchdarkly-event-schema",
+								"value": "3"
+							},
+							{
+								"key": "user-agent",
+								"value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) PostmanDev/10.8.0 Chrome/100.0.4896.160 Electron/18.3.5 Safari/537.36"
+							},
+							{
+								"key": "content-type",
+								"value": "application/json"
+							},
+							{
+								"key": "accept",
+								"value": "*/*"
+							},
+							{
+								"key": "sec-fetch-site",
+								"value": "cross-site"
+							},
+							{
+								"key": "sec-fetch-mode",
+								"value": "cors"
+							},
+							{
+								"key": "sec-fetch-dest",
+								"value": "empty"
+							},
+							{
+								"key": "referer",
+								"value": "https://matrix.postman-beta.co:8777/"
+							},
+							{
+								"key": "accept-encoding",
+								"value": "gzip, deflate, br"
+							},
+							{
+								"key": "accept-language",
+								"value": "en-GB"
+							},
+							{
+								"key": "x-postman-captr",
+								"value": "4890281"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "[{\"startDate\":1674549683151,\"endDate\":1674549683151,\"features\":{\"runtime-4407-handling-large-collections\":{\"default\":{\"exclude_requests\":false,\"exclude_responses\":false},\"counters\":[{\"value\":{\"exclude_requests\":true,\"exclude_responses\":true},\"count\":1,\"variation\":0,\"version\":6}]}},\"kind\":\"summary\"}]"
+						},
+						"url": "https://events.launchdarkly.com/events/6028132d28a3970b6450f684"
+					},
+					"response": []
+				}
+			],
+			"id": "f3a7415c-2ff9-4bc3-9a44-589f9bf5f737"
+		},
+		{
+			"name": "newww",
+			"item": [],
+			"id": "fb80cc5e-1c71-47b7-8ff0-801015aeb8fd"
+		},
+		{
+			"name": "https://desktop.postman.com/_ar-assets/asset-priority.json",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "8224e49d-4afd-4259-a5e2-545566e1880f",
+						"exec": [
+							"console.log('ah hah!');",
+							"let a = 'new variable for laughs';",
+							"var b='newer';",
+							"var aaaaa;",
+							"// changes galore and mroe",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"id": "d5c2b93e-16c7-4b61-aa64-a4bd6ea4265e",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "host",
+						"value": "desktop.postman.com"
+					},
+					{
+						"key": "connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Postman/10.8.0 Chrome/100.0.4896.160 Electron/18.3.5 Safari/537.36"
+					},
+					{
+						"key": "accept",
+						"value": "*/*"
+					},
+					{
+						"key": "sec-fetch-site",
+						"value": "same-origin"
+					},
+					{
+						"key": "sec-fetch-mode",
+						"value": "cors"
+					},
+					{
+						"key": "sec-fetch-dest",
+						"value": "empty"
+					},
+					{
+						"key": "referer",
+						"value": "https://desktop.postman.com/service-worker-8f7f031f4766e5f419b8.js"
+					},
+					{
+						"key": "accept-encoding",
+						"value": "gzip, deflate, br"
+					},
+					{
+						"key": "accept-language",
+						"value": "en-US"
+					},
+					{
+						"key": "cookie",
+						"value": "amp_56d4a7=UK6vYlQq7GYPHT6awiXEvN.MTkyNDMzNTE=..1gn56gk9s.1gn56gkah.4f.4j.92"
+					},
+					{
+						"key": "if-none-match",
+						"value": "\"08c37aed779a2ff4ebdc13ce562019d6\""
+					},
+					{
+						"key": "if-modified-since",
+						"value": "Thu, 18 Aug 2022 04:43:12 GMT"
+					},
+					{
+						"key": "x-postman-captr",
+						"value": "2685006"
+					}
+				],
+				"url": "newurl.com"
+			},
+			"response": []
+		},
+		{
+			"name": "create integ",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "e5551758-9946-4dc1-a0f8-2fb964eb193b",
+						"exec": [
+							"const filename = `file_${Math.ceil(Math.random() *100)}`",
+							"pm.variables.set('filename', filename);",
+							"// caahhahahah"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"id": "146991d8-8831-44ed-8b7b-4fd88584022e",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Cookie",
+						"value": "dashboard_beta=yes; PRODUCT_VERSION=10; postman-staging.sid=204ae66c72446abd07011a42aeaa8d668a7e990e8649bb6e098389cd5a16f338fd77aff588436a8a9286585e242d4b8e0cc6eed10c6c4f06bde0562c6441ee77d9426b1ad45008b07aa4c8d437fdd5cc125bf2dc3e8debc0bcdf6c1b79515d32c05f0a8efc7f5e727b7e016b1c1541577388c56f06f1c55ea6074d04d0fc67ce3660f87c31326b0b37da1ca4487d16471af703e95dd883dcfbc50da4f9f18a70066ce70416a554ec8f4a5cd0b9d77496db7fbdcedb034cab231f48c53db94ef86cf21cd9cbb5e30c2daa516a3c7859ed187852789863a516f1a253a5b834e8deb82b85b88d9a597a233e1761efeb6552274e0a79702b5e6ae85fbf820da736fa9077e7ec6594ac33ebac20290b5601bb073858411abf9b11af50c28dc412778cb6d2d25a5c18b505b7c63d39267b981cc08b43b81995e3ad3ec8e9178632cbc74030506bc8991764dfa69b10435021b93051e7ffbbce67525b2454183dab193ddd54219ca171425a56869972e5ca77806bf8a6c58ec22ff7c6355270d06fd4fb4c29da7f731e55e52cef611c2a257999f979dc8992ce3384459db075007dd37b8dc6b71f067e4f18e16468d7ded32d49f68793920a83d348011fc096ea4048df5b; postman-beta.track=default; dashboardVersion=3; CF_AppSession=n30d5325e5e6b73b9; _cfuvid=fwsXFDj9C0diSs0OHCsyl6SLh2kevIbRZwwJbxVrzT0-1693305964796-0-604800000; amp_0cc34f=7TM2s2FHiTSk22YCck4GY0.MGI4Njg0YjItNzEyZS00MjkzLWJhMmEtMjg2MzA4N2Q0OWY0..1h90v0pao.1h90vjt9c.1ko.36l.4rd",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"service\":\"integrations\",\"method\":\"post\",\"path\":\"/integration?workspace=64f3c52a-3e6a-4605-89d3-280243c6ffd9\",\"body\":{\"name\":\"4\",\"rule\":\"collection_gitlab\",\"entity\":\"collection\",\"executor\":\"853821-ff0ef25c-c5cb-4817-b6ac-7261e3b1e271\",\"variables\":{\"personal_access_token\":\"glpat-VH_ReEsyCjeF3Bxon8aA\",\"project_id\":45676316,\"directory\":\"Bulk collections\",\"file_name\":\"{{filename}}\",\"branch\":\"\"}}}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://postman.postman-beta.co/_api/ws/proxy"
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "23e0e966-09d2-43d6-966e-c6cbf74c035c",
+				"type": "text/javascript",
+				"exec": [
+					"//changes",
+					"//changes",
+					"// more changes",
+					"// and more"
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "e7c379b6-ebca-431a-abe8-111d2d992def",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
