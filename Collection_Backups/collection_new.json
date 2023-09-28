@@ -512,12 +512,13 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "23e0e966-09d2-43d6-966e-c6cbf74c035c",
+				"id": "372fab04-efd1-4f0d-ae4c-fdeca9daba55",
 				"type": "text/javascript",
 				"exec": [
 					"//changes",
 					"//changes",
 					"// more changes",
+					"// and more",
 					"// and more"
 				]
 			}
@@ -525,7 +526,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "e7c379b6-ebca-431a-abe8-111d2d992def",
+				"id": "966de909-bbb2-45db-aebf-87da33207906",
 				"type": "text/javascript",
 				"exec": [
 					""
