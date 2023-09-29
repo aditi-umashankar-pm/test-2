@@ -174,21 +174,19 @@
 				{
 					"listen": "prerequest",
 					"script": {
-						"id": "a13f9b54-00f9-4ad4-ae97-3fe92da6577b",
+						"id": "f107038e-5c69-48ed-acf6-a182dc4d994a",
 						"type": "text/javascript",
 						"exec": [
-							"dfkjhk,wkdshfkewhfkj",
-							"ksdfjlefewkhdfg",
-							"lkjsdfkhwe;kjbljsefk",
-							"jkfkjsd",
-							"ewfj;ehurfhpreiwuhfweiruh"
+							"//changes to check update",
+							"//changes",
+							"//changes"
 						]
 					}
 				},
 				{
 					"listen": "test",
 					"script": {
-						"id": "bdbb162c-d844-4786-a156-faa704649095",
+						"id": "d3ccc838-6665-4001-b046-9960ae81c202",
 						"type": "text/javascript",
 						"exec": [
 							""
