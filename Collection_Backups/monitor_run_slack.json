@@ -2,6 +2,7 @@
 	"info": {
 		"_postman_id": "254d19bc-a35c-4099-812e-d6ee726f1a0e",
 		"name": "Test Collection",
+		"description": "// hello",
 		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
 	},
 	"item": [
@@ -400,7 +401,7 @@
 						"id": "33c143af-e16c-4b1c-9eb2-b15c6fafccd9",
 						"exec": [
 							"// changed by alekhya hello made some updatesyes hey yo morning",
-							"/// ey go"
+							"/// ey go hey hey heyheye heyjeue have updated hellohet"
 						],
 						"type": "text/javascript"
 					}
