@@ -2,6 +2,7 @@
 	"info": {
 		"_postman_id": "254d19bc-a35c-4099-812e-d6ee726f1a0e",
 		"name": "Test Collection",
+		"description": "// updated",
 		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
 	},
 	"item": [
@@ -393,6 +394,17 @@
 						],
 						"type": "text/javascript"
 					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "33c143af-e16c-4b1c-9eb2-b15c6fafccd9",
+						"exec": [
+							"// changed by alekhya hello made some updatesyes hey yo morning",
+							"/// ey go"
+						],
+						"type": "text/javascript"
+					}
 				}
 			],
 			"id": "d5c2b93e-16c7-4b61-aa64-a4bd6ea4265e",
@@ -460,48 +472,6 @@
 					}
 				],
 				"url": "newurl.com"
-			},
-			"response": []
-		},
-		{
-			"name": "create integ",
-			"event": [
-				{
-					"listen": "prerequest",
-					"script": {
-						"id": "e5551758-9946-4dc1-a0f8-2fb964eb193b",
-						"exec": [
-							"const filename = `file_${Math.ceil(Math.random() *100)}`",
-							"pm.variables.set('filename', filename);",
-							"// caahhahahah"
-						],
-						"type": "text/javascript"
-					}
-				}
-			],
-			"id": "146991d8-8831-44ed-8b7b-4fd88584022e",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "POST",
-				"header": [
-					{
-						"key": "Cookie",
-						"value": "dashboard_beta=yes; PRODUCT_VERSION=10; postman-staging.sid=204ae66c72446abd07011a42aeaa8d668a7e990e8649bb6e098389cd5a16f338fd77aff588436a8a9286585e242d4b8e0cc6eed10c6c4f06bde0562c6441ee77d9426b1ad45008b07aa4c8d437fdd5cc125bf2dc3e8debc0bcdf6c1b79515d32c05f0a8efc7f5e727b7e016b1c1541577388c56f06f1c55ea6074d04d0fc67ce3660f87c31326b0b37da1ca4487d16471af703e95dd883dcfbc50da4f9f18a70066ce70416a554ec8f4a5cd0b9d77496db7fbdcedb034cab231f48c53db94ef86cf21cd9cbb5e30c2daa516a3c7859ed187852789863a516f1a253a5b834e8deb82b85b88d9a597a233e1761efeb6552274e0a79702b5e6ae85fbf820da736fa9077e7ec6594ac33ebac20290b5601bb073858411abf9b11af50c28dc412778cb6d2d25a5c18b505b7c63d39267b981cc08b43b81995e3ad3ec8e9178632cbc74030506bc8991764dfa69b10435021b93051e7ffbbce67525b2454183dab193ddd54219ca171425a56869972e5ca77806bf8a6c58ec22ff7c6355270d06fd4fb4c29da7f731e55e52cef611c2a257999f979dc8992ce3384459db075007dd37b8dc6b71f067e4f18e16468d7ded32d49f68793920a83d348011fc096ea4048df5b; postman-beta.track=default; dashboardVersion=3; CF_AppSession=n30d5325e5e6b73b9; _cfuvid=fwsXFDj9C0diSs0OHCsyl6SLh2kevIbRZwwJbxVrzT0-1693305964796-0-604800000; amp_0cc34f=7TM2s2FHiTSk22YCck4GY0.MGI4Njg0YjItNzEyZS00MjkzLWJhMmEtMjg2MzA4N2Q0OWY0..1h90v0pao.1h90vjt9c.1ko.36l.4rd",
-						"type": "text"
-					}
-				],
-				"body": {
-					"mode": "raw",
-					"raw": "{\"service\":\"integrations\",\"method\":\"post\",\"path\":\"/integration?workspace=64f3c52a-3e6a-4605-89d3-280243c6ffd9\",\"body\":{\"name\":\"4\",\"rule\":\"collection_gitlab\",\"entity\":\"collection\",\"executor\":\"853821-ff0ef25c-c5cb-4817-b6ac-7261e3b1e271\",\"variables\":{\"personal_access_token\":\"glpat-VH_ReEsyCjeF3Bxon8aA\",\"project_id\":45676316,\"directory\":\"Bulk collections\",\"file_name\":\"{{filename}}\",\"branch\":\"\"}}}",
-					"options": {
-						"raw": {
-							"language": "json"
-						}
-					}
-				},
-				"url": "https://postman.postman-beta.co/_api/ws/proxy"
 			},
 			"response": []
 		}
