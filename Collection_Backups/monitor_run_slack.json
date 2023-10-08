@@ -480,18 +480,17 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "4466a690-977a-4e31-b4a0-e3b4709926d1",
+				"id": "5976ec15-5453-4881-b36b-48faa43f26e4",
 				"type": "text/javascript",
 				"exec": [
-					"'adkCFWE.LDhkw'",
-					"as'f'lskdaf/lkaw;ekjflesfk"
+					"no more"
 				]
 			}
 		},
 		{
 			"listen": "test",
 			"script": {
-				"id": "83d1794f-58f6-4393-b896-c31b3153b107",
+				"id": "e74dd159-7fbc-4191-a39e-177712ed2f31",
 				"type": "text/javascript",
 				"exec": [
 					""
